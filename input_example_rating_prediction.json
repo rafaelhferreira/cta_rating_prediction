@@ -1,0 +1,3004 @@
+{
+  "123abc": {
+    "session_id": "123abc",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "1234abc": {
+    "session_id": "1234abc",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "1234abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "1234abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "12345abc": {
+    "session_id": "12345abc",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "12345abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "12345abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "123456abc": {
+    "session_id": "123456abc",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123456abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123456abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "1234567abc": {
+    "session_id": "1234567abc",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "1234567abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "1234567abc",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "123abcd": {
+    "session_id": "123abcd",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcd",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcd",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "123abcde": {
+    "session_id": "123abcde",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcde",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcde",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "123abcdefg": {
+    "session_id": "123abcdefg",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcdefg",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "123abcdefg",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "abc123": {
+    "session_id": "abc123",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "abc123",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "abc123",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "abc1234": {
+    "session_id": "abc1234",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "abc1234",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "abc1234",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "otherid1": {
+    "session_id": "otherid1",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid1",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid1",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "otherid2": {
+    "session_id": "otherid2",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid2",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid2",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid3": {
+    "session_id": "otherid3",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid3",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid3",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+  "otherid5": {
+    "session_id": "otherid5",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid5",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid5",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid6": {
+    "session_id": "otherid6",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid6",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid6",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid7": {
+    "session_id": "otherid7",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid7",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid7",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid8": {
+    "session_id": "otherid8",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid8",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid8",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid9": {
+    "session_id": "otherid9",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid9",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid9",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  },
+    "otherid10": {
+    "session_id": "otherid10",
+    "user_id": "abc123",
+    "conversation_id": "XXX",
+    "start_time": "2023-01-17T04:00:18.592746",
+    "rating_timestamp": "",
+    "duration": "250",
+    "rating": "5",
+    "has_screen": false,
+    "turns": [
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "LAUNCH_RESPONDER": {
+            "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+          }
+        },
+        "intent": "YesIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid10",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "460",
+                "endOffsetInMilliseconds": "610",
+                "_confidenceV2": {
+                  "score": "0.988"
+                },
+                "value": "yes",
+                "confidence": "0.988"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.988"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.988"
+          }
+        ],
+        "data_source": "",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "yes",
+        "phase": "greeting",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " Try asking me things like: How to cook grilled salmon, or, How to make a tote bag. "
+      },
+      {
+        "creation_date_time": "2023-01-17T04:00:59.347709",
+        "candidate_responses": {
+          "IDENTIFY_PROCESS_RESPONDER": {
+            "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+          }
+        },
+        "intent": "IdentifyProcessIntent",
+        "sentiment_score": {
+          "valence": {
+            "value": "0.020472467",
+            "confidence": "UNKNOWN"
+          },
+          "activation": {
+            "value": "0.083258376",
+            "confidence": "UNKNOWN"
+          },
+          "satisfaction": {
+            "value": "0.012997696",
+            "confidence": "UNKNOWN"
+          },
+          "modelVersion": "2.1"
+        },
+        "session_id": "otherid10",
+        "asr": [
+          {
+            "tokens": [
+              {
+                "startOffsetInMilliseconds": "960",
+                "endOffsetInMilliseconds": "1210",
+                "_confidenceV2": {
+                  "score": "0.968"
+                },
+                "value": "how",
+                "confidence": "0.968"
+              },
+              {
+                "startOffsetInMilliseconds": "1230",
+                "endOffsetInMilliseconds": "1360",
+                "_confidenceV2": {
+                  "score": "0.906"
+                },
+                "value": "to",
+                "confidence": "0.906"
+              },
+              {
+                "startOffsetInMilliseconds": "1380",
+                "endOffsetInMilliseconds": "1630",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "cook",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1650",
+                "endOffsetInMilliseconds": "1930",
+                "_confidenceV2": {
+                  "score": "0.923"
+                },
+                "value": "grilled",
+                "confidence": "0.923"
+              },
+              {
+                "startOffsetInMilliseconds": "1950",
+                "endOffsetInMilliseconds": "2590",
+                "_confidenceV2": {
+                  "score": "0.851"
+                },
+                "value": "salmon",
+                "confidence": "0.851"
+              }
+            ],
+            "_confidenceV2": {
+              "score": "0.978"
+            },
+            "directedness": {
+              "score": "0"
+            },
+            "confidence": "0.978"
+          }
+        ],
+        "data_source": "recipe",
+        "system_latency": 1000,
+        "conversation_id": "XXX",
+        "text": "how to cook grilled salmon",
+        "phase": "process_grounding",
+        "user_id": "abc123",
+        "input_offensive": "0",
+        "response": " A large gathering will be complete with Grilled Salmon Gyros, it serves 6. Would you like to 'start the recipe', 'hear the ingredients', or 'hear the next recipes'. "
+      }
+    ]
+  }
+}
