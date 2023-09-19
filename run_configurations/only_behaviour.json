@@ -1,0 +1,13 @@
+{
+   "suffix":"",
+   "model_name":"behaviour_only",
+   "use_small_dataset":false,
+   "min_num_turns":3,
+   "labelling_method":"Binary_123_45",
+   "scalling_method": "StandardScalerMethod",
+   "use_penultimate":false,
+   "seed":42,
+   "train_run_name":"behaviour_only",
+   "number_samples": null,
+   "use_predefined_validation_split":true
+}
