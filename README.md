@@ -159,7 +159,7 @@ After having a custom configuration file or model run:\
 
 
 ## Citation
-If you find it useful please cite our work using:
+If you find it useful please cite our work:
 ```
 @inproceedings{rating_prediction_cta,
 author = {Ferreira, Rafael and Semedo, David and Magalh\~{a}es, Jo\~{a}o},
