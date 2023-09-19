@@ -22,7 +22,7 @@ The data cannot be shared due to Alexa Prize Challenge rules, but you can provid
 #### Data Format
 You can provide data in the format availble in [input_example_rating_prediction.json](input_example_rating_prediction.json) (a dummy example).\
 The format is the following:
-```json
+```
 {
   "an_id_of_a_session": {   # this one session
     "session_id": "an_id_of_a_session",
@@ -110,7 +110,7 @@ in the function *get_features_from_turn*.
 Models available: 
 * **Behavior-Only** - methods based only on behavior features such as RandomForest, AdaBoost, Bagging, GradientBoosting, XGBoost, LogisticRegression, and SVM.
 * **Conversarional-Flow-Only** - methods that only consider text features such as BERT and T5.
-* **Conversational-Flow and Behavior** - models that combine both types of features such as ConvSat and the proposed TB-Rater.
+* **Conversational-Flow and Behavior** - the proposed TB-Rater model.
 
 
 ### Training and Evaluation
